@@ -1,0 +1,1648 @@
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    width: 100%;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+    margin: 1px;
+    padding-bottom: 7px;
+}
+
+.logo {
+    background-image: url("logo2.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+
+}   
+
+.border:hover {
+    border: 1.50px solid white;
+}
+
+.Deliver {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+    padding-top: 10px;
+}
+
+
+.location {
+    font-size: 1rem;
+    margin-left: 3.7px;
+    padding-bottom: 10px;
+}
+
+.add-icon {
+    display: flex;
+}
+
+.nav-add {
+    padding-left: 9px;
+    padding-right: 9px;
+    margin: 1px;
+}
+
+
+/**Box 3**/
+.nav-search {
+    height: 40px;
+    width: 600px;
+    /* background-color: pink; */
+    display: flex;
+    margin-left: 9px;
+}
+
+
+.select {
+    background-color: rgb(222, 220, 220);
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.select:hover {
+    background-color: #c9c7c7;
+}
+
+
+
+
+.search {
+    width: 488.75px;
+    border: none;
+    height: 38px;
+}
+
+.search-icon {
+    width: 45px;
+    background-color: #febd68;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    margin-right: 9px;
+
+}
+
+.search-icon:hover {
+    background-color: #f5a02f;
+}
+
+/** box4 **/
+.outer-image {
+    height: 25px;
+    width: 73.38px;
+    padding-top: 25px;
+    padding-left: 9px;
+    display: flex;
+    margin-left: 3px;
+    padding-bottom: 8px;
+}
+
+.image {
+    background-image: url(flag.png);
+    background-size: cover;
+    height: 16.2px;
+    width: 21.6px;
+
+}
+
+span {
+    font-size: 12px;
+    height: 14px;
+    font-weight: 400;
+}
+
+.text1 {
+    padding: 9px;
+}
+
+.text2 {
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 700;
+}
+.text3 {
+    padding: 13px 9px 10px 9px;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+}
+
+.text4 {
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 700;
+}
+
+
+
+.cart {
+    padding: 9px 9px 9px 9px;
+    font-size: 0.85rem;
+}
+
+.cart i {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.panel {
+    height: 39px;
+    width: 100%;
+    background-color: #1d2938;
+    display: flex;
+    align-items: center;
+    position: sticky;
+}
+
+.All {
+    color: #FFFFFF;
+    padding: 8px 9px 8px 9px;
+    font-weight: 600;
+}
+
+.deals {
+    color: #FFFFFF;
+    padding: 8px 9px;
+
+}
+
+.service {
+    color: #FFFFFF;
+    padding: 8px 9px;
+}
+
+.registry {
+    color: #FFFFFF;
+    padding: 8px 9px;
+}
+
+.gift {
+    color: #FFFFFF;
+    padding: 8px 9px;
+}
+
+.sell {
+    color: #FFFFFF;
+    padding: 8px 9px;
+}
+
+/** hero section **/
+.hero-section {
+    background-image: url(backbody1.png);
+    height: 600px;
+    background-size: cover;
+    background-position: -160px;
+}
+
+
+.hero-section i {
+    background-size: 68px 52px;
+    font-size: 50px;
+    font-weight: 200px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 330px;
+    right: 25px;
+    padding-bottom: 18px;
+}
+
+.left i{
+    padding-right: 1109px;
+    padding-bottom: 18px;
+}
+
+.shop-section1 {
+    height: 385px;
+    width: 350px;
+    background-color: #FFFFFF;
+    position: relative;
+    top: 248px;
+    left: 20px;
+    font-size: 21px;
+    line-height: 27.3px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+
+    
+}
+
+.headsets {
+    height: 115px;
+    width: 185px;
+    background-image: url(Headsets.png);
+    background-size: cover;
+    position: absolute;
+    top: 60px;
+    left: 9px;
+
+}
+
+.keyboard {
+    background-image: url(keyborad.png);
+    background-size: cover;
+    height: 115px;
+    width: 185px;
+    position: relative;
+    left: 160px;
+    top: 12px;
+}
+
+.head {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 10px;
+    font-weight: 300;
+    padding-right: 115px;
+
+}
+
+.mouse {
+    height: 115px;
+    width: 185px;
+    background-image: url(mouse.png);
+    background-size: cover;
+    position: relative;
+    top: 25px;
+    right: 10px;
+}
+
+.chairs {
+    height: 115px;
+    width: 185px;
+    background-image: url(chair.png);
+    background-size: cover;
+    position: absolute;
+    right: 10px;
+    top: 210px;
+}
+
+.mice {
+    font-size: 12px;
+    line-height: 18px;
+    color: #0f1111;
+    position: absolute;
+    top: 332px;
+    left: 18px;
+}
+
+.chair {
+    color: #0f1111;
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    top: 335px;
+    right: 146px;
+}
+
+a {
+    font-size: 14px;
+    line-height: 20px;
+    position: absolute;
+    bottom: 10px;
+    text-decoration: none;
+    color: #2162a1;
+    font-weight: 500;
+
+}
+
+.shop-section2 {
+    height: 405px;
+    width: 370px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 347px;
+    right: 413px;
+}
+
+.game {
+    font-size: 21px;
+    line-height: 27.3px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.cpu {
+    height: 303px;
+    width: 330px;
+    background-image: url(cpu.png);
+    background-size: cover;
+    position: absolute;
+    top: 57px;
+    right: 20px;
+    
+}
+
+.a1 {
+    font-size: 14px;
+    padding-left: 20px;
+    color: #2162a1;
+}
+
+.shop-section3 {
+    height: 405px;
+    width: 370px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 347px;
+    right: 20px;
+    font-size: 21px;
+    line-height: 27px;
+    font-weight: 700;
+
+}
+
+.home50 {
+    padding: 20px 20px 10px 20px;
+}
+
+.image1 {
+    font-size: 13px;
+    line-height: 19px;
+    height: 102px;
+    width: 167px;
+    background-image: url(kitchen.png);
+    background-size: cover;
+    position: relative;
+    left: 20px;
+    display: inline-block;
+}
+
+.image2 {
+    height: 102px;
+    width: 163px;
+    background-image: url(home.png);
+    background-size: cover;
+    position: absolute;
+    right: 10px;
+    top: 56px;
+    font-size: 13px;
+    line-height: 19px;
+    background-position: 20px 0px 20px;
+}
+
+.kich {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    left: 20px;
+    top: 160px;
+    display: inline;
+}
+
+.home1 {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    top: 160px;
+    right: 66px;
+}
+
+.decor {
+    height: 102px;
+    width: 163px;
+    background-image: url(Decor.jpg);
+    background-size: cover;
+    position: relative;
+    left: 20px;
+    top: 66px;
+}
+
+.bath {
+    height: 102px;
+    width: 163px;
+    background-image: url(bath.png);
+    background-size: cover;
+    position: absolute;
+    top: 231.7px;
+    right: 13px;
+}
+
+.decor1 {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    top: 333px;
+    left: 20px;
+    display: inline-block;
+}
+
+.bath1 {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    bottom: 58px;
+    left: 194px;
+    
+}
+
+.shop1 {
+    position: absolute;
+    left: 20px;
+    color: #2162a1;
+}
+
+
+.essentials {
+    height: 420px;
+    width: 370px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 20px;
+    top: 775px;
+}
+
+body {
+    background-color: rgb(226, 228, 228);
+}
+
+.ess {
+    font-size: 21px;
+    line-height: 27px;
+    font-weight: 700;
+    padding: 20px 0px 5px 20px;
+}
+
+
+.clean {
+    height: 102px;
+    width: 164px;
+    background-image: url(cleaning.png);
+    background-size: cover;
+    position: absolute;
+    top: 58px;
+    left: 20px;
+    background-position: -7px;
+    background-repeat: no-repeat;
+}
+
+
+.storage {
+    height: 102px;
+    width: 164px;
+    background-image: url(storage.png);
+    background-size: cover;
+    background-position: -7px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 13px;
+    top: 58px;
+}
+
+.clean1 {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    bottom: 245px;
+    left: 20px;
+}
+
+.storage1 {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    bottom: 245px;
+    right: 100px;
+}
+
+.home-decor {
+    height: 102px;
+    width: 164px;
+    background-image: url(home-decor.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -7px;
+    position: absolute;
+    top: 220px;
+    left: 20px;
+}
+
+.bedding {
+    height: 102px;
+    width: 164px;
+    background-image: url(bedding.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -7px;
+    position: absolute;
+    top: 220px;
+    right: 13.6px;
+}
+
+.home-decor1 {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    top: 323px;
+    left: 20px;
+}
+
+.bedding1 {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    top: 323px;
+    right: 134px;
+}
+
+.more {
+    font-size: 14px;
+    line-height: 20px;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}
+
+.fashion {
+    height: 420px;
+    width: 370px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 775px;
+    right:  413px;
+}
+
+.fashion-text {
+    font-size: 21px;
+    line-height: 27px;
+    font-weight: 700;
+    padding: 20px 0px 0px 20px;
+}
+
+.jeans {
+    height: 102px;
+    width: 164px;
+    background-image: url(jeans.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 58px;
+    left: 20px;
+    background-position-x: -7px;
+
+}
+
+
+.tops {
+    height: 102px;
+    width: 164px;
+    background-image: url(tops.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 58px;
+    right: 13px;
+    background-position-x: -7px;
+}
+
+.jeans1 {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    top: 161px;
+    left: 19.5px;
+
+}
+
+.tops1 {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    top: 161px;
+    right: 93.7px;
+
+}
+
+.under {
+    height: 102px;
+    width: 164px;
+    background-image: url(uder.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 221px;
+    left: 20px;
+    background-position-x: -7px;
+}
+
+.shoes {
+    height: 102px;
+    width: 164px;
+    background-image: url(shoes.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -7px;
+    position: absolute;
+    top: 221px;
+    right: 13px;
+}
+
+.under1 {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    bottom: 82.5px;
+    left: 20.9px;
+}
+
+.shoes1 {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    bottom: 82.5px;
+    right: 85px;
+}
+
+.see {
+    font-size: 14px;
+    line-height: 18px;
+    position: absolute;
+    left: 20px;
+    padding-bottom: 6px;
+}
+
+.toys-under {
+    height: 420px;
+    width: 370px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 775px;
+    right: 20px;
+}
+
+.toys-text {
+    font-size: 21px;
+    line-height: 27px;
+    font-weight: 700px;
+    color: #000000;
+    padding: 20px 0px 0px 20px;
+    font-weight: 700;
+}
+
+.toys-under25 {
+    height: 303px;
+    width: 330px;
+    background-image: url($25.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 57px;
+    left: 20px;
+}
+
+.shop-now {
+    position: absolute;
+    left: 20px;
+    padding-bottom: 4px;
+}
+
+.categories {
+    height: 420px;
+    width: 370px;
+    background-color: #FFFFFF;
+    margin-top: 517px;
+    margin-left: 20px;
+}
+
+.cate-text {
+    font-size: 21px;
+    line-height: 27px;
+    font-weight: 700;
+    padding: 20px 0px 0px 20px;
+}
+
+.image-cooker {
+    height: 145px;
+    width: 335px;
+    background-image: url(cooker.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    background-position-x: -12px;
+}
+
+
+.cooker1 {
+    line-height: 1.3em !important;
+    position: relative;
+    top: 12px;
+    left: 20px;
+}
+
+.coffee {
+    height: 75px;
+    width: 112px;
+    background-image: url(coffee.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 25px;
+    left: 20px;
+}
+
+.pot {
+    height: 75px;
+    width: 112px;
+    background-image: url(pot.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 1480px;
+    right: 930px;
+}
+
+.kettles {
+    height: 75px;
+    width: 112px;
+    background-image: url(kettles.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 1480px;
+    left: 270px;
+}
+
+.coffee1 {
+    font-size: 15px;
+    line-height: 1.3em;
+    position: absolute;
+    left: 40px;
+    top: 1557px;
+}
+
+.pot1 {
+    font-size: 15px;
+    line-height: 1.3em;
+    position: absolute;
+    top: 1557px;
+    left: 155px;
+}
+
+.kettles1 {
+    font-size: 15px;
+    line-height: 1.3em;
+    position: absolute;
+    top: 1557px;
+    left: 270px;
+}
+
+ .explore {
+    position: absolute;
+    top: 1600px;
+    left: 40px;
+} 
+
+
+.new-year {
+    height: 420px;
+    width: 370px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 415px;
+    top: 1216px;
+}
+
+
+
+.new-text {
+    font-size: 21px;
+    line-height: 27.3px;
+    font-weight: 700;
+    padding: 20px 0px 0px 20px;
+}
+
+.new-image {
+    height: 303px;
+    width: 330px;
+    background-image: url(new.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+
+
+.shop-1 {
+    position: absolute;
+    left: 20px;
+    bottom: 16px;
+}
+
+.refresh {
+    height: 420px;
+    width: 370px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 1215px;
+    right: 20px;
+}
+
+.refresh-text {
+    font-size: 21px;
+    line-height: 27px;
+    font-weight: 700;
+    padding: 20px 0px 0px 20px;
+}
+
+.dining {
+    height: 102px;
+    width: 164px;
+    background-image: url(dining.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 20px;
+    top: 58px;
+}
+
+.Home2 {
+    height: 102px;
+    width: 164px;
+    background-image: url(home2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position-x: -10px;
+    right: 10px;
+    top: 58px;
+}
+
+.dining1 {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    top: 161.5px;
+    left: 20px;
+}
+
+.Home21 {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    top: 161.5px;
+    right: 142px;
+}
+
+.kitchen2 {
+    height: 102px;
+    width: 164px;
+    background-image: url(kitchen2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 230px;
+    left: 20px;
+}
+
+.health {
+    height: 102px;
+    width: 164px;
+    background-image: url(health.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position-x: -7px;
+    top: 230px;
+    right: 10px;
+}
+
+.kitchen21 {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    top: 333.5px;
+    left: 20px;
+}
+
+.health1 {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    top: 333.5px;
+    right: 75px;
+}
+
+.see-more {
+    position: absolute;
+    left: 20px;
+    bottom: 13px;
+}
+
+
+.pakistan {
+    height: 281px;
+    width: 1157px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 20px;
+    top: 1660px;
+    overflow: auto;
+    /* border: 2px solid rgb(34, 0, 255); */
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.pak-text {
+    font-size: 21px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.top11 {
+    height: 200px;
+    width: 260px;
+    background-image: url(top11.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+
+.pak22 {
+    height: 200px;
+    width: 200px;
+    background-image: url(pak22.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50px;
+    left: 290px;
+}
+
+.pak4 {
+    height: 200px;
+    width: 197px;
+    background-image: url(pak4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50px;
+    left: 510px;
+}
+
+.pak1 {
+    height: 200px;
+    width: 170px;
+    background-image: url(pak1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50px;
+    left: 720px;
+}
+
+.pak2 {
+    height: 200px;
+    width: 223px;
+    background-image: url(pak2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50px;
+    left: 910px;
+}
+
+
+
+.pakistan::-webkit-scrollbar {
+    height: 9px;
+    background: #d3d3d3;
+}
+
+.pakistan::-webkit-scrollbar-track {
+    background: #d3d3d3;
+    height: 9px;
+    
+}
+.pakistan::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #b2b2b2;
+}
+
+
+.pak3 {
+    height: 200px;
+    width: 123px;
+    background-image: url(pak3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -120px;
+    top: 50px;
+
+}
+
+.atmos {
+    height: 105px;
+    width: 270px;
+    background-image: url(atmos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 95px;
+    right: -410px;
+}
+
+.most-liked {
+    height: 420px;
+    width: 370px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 1965px;
+    left: 20px;
+    
+}
+
+.watches {
+    color: #000000;
+    font-size: 21px;
+    line-height: 27.1px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.women .women13{
+    height: 102px;
+    width: 155px;
+    position: absolute;
+    left: 20px;
+    top: 60px;
+
+}
+
+
+.women img {
+    width: 100%;
+    height: auto;
+}
+
+.men .image14{
+    height: 102px;
+    width: 155px;
+    position: absolute;
+    right: 20px;
+    top: 60px;
+}
+
+.men {
+    width: 100%;
+    height: auto;
+}
+
+.women1 {
+    font-size: 12px;
+    line-height: 18px;
+    position: relative;
+    top: 93px;
+    left: 21px;
+}
+
+    
+.men1 {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    top: 163px;
+    right: 150px;
+}
+
+.girls {
+    height: 102px;
+    width: 155px;
+    background-image: url(girls.png);
+    background-size: cover;
+    position: absolute;
+    top: 230px;
+    left: 20px;
+}
+
+/* .girls img {
+    height: auto;
+    width: 100%;
+} */
+
+
+.boys {
+    height: 102px;
+    width: 155px;
+    background-image: url(boys.png);
+    background-size: cover;
+    position: absolute;
+    top: 230px;
+    right: 20px;
+}
+
+.girls1 {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    top: 333px;
+    left: 20px;
+}
+
+.boys1 {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    top: 333px;
+    right: 149px;
+}
+
+.Discover-more {
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+}
+
+.travel {
+    height: 420px;
+    width: 370px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 415px;
+    top: 1965px;
+}
+
+
+
+.most-travel {
+    font-size: 21px;
+    line-height: 27.1px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+
+.backpack {
+    height: 102px;
+    width: 155px;
+    background-image: url(backpack.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 20px;
+    top: 61px;
+}
+
+.suit-case {
+    height: 102px;
+    width: 155px;
+    background-image: url(suitcases.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 61px;
+    right: 20px;
+}
+
+.backpack1 {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    top: 163px;
+    left: 21px;
+
+}
+
+
+.suitcase1 {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    top: 163px;
+    right: 123px;
+}
+
+.accessories {
+    height: 102px;
+    width: 155px;
+    background-image: url(Accessories.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 230px;
+    left: 20px;
+}
+
+.hand {
+    height: 102px;
+    width: 155px;
+    background-image: url(hand.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 230px;
+    right: 20px;
+}
+
+.accessories1 {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    top: 333px;
+    left: 21px;
+}
+
+.hand1 {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    top: 333px;
+    right: 120px;
+}
+
+.discover-more {
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+}
+
+
+.makeup {
+    height: 420px;
+    width: 370px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 1965px;
+    right: 23px;
+}
+
+
+.makeup-text {
+    font-size: 21px;
+    line-height: 27.1px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+
+.make-up {
+    height: 102px;
+    width: 155px;
+    background-image: url(Makeup.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 20px;
+    top: 61px;
+}
+
+.brushes {
+    height: 102px;
+    width: 155px;
+    background-image: url(Brushes.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 20px;
+    top: 61px;
+}
+
+
+.makeup1 {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    top: 163px;
+    left: 20px;
+}
+
+.brushes1 {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    top: 163px;
+    right: 131px;
+}
+
+
+.sponger {
+    height: 102px;
+    width: 155px;
+    background-image: url(sponges.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 230px;
+    left: 20px;
+}
+
+
+.mirror {
+    height: 102px;
+    width: 155px;
+    background-image: url(mirrors.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 230px;
+    right: 20px;
+}
+
+.sponger1 {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    top: 333px;
+    left: 20px;
+}
+
+.mirror1 {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    top: 333px;
+    right: 137px;
+}
+
+
+
+.see-more1 {
+    position: absolute;
+    left: 20px;
+    bottom: 14px;
+}
+
+.wireless {
+    height: 420px;
+    width: 370px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 2410px;
+    left: 20px;
+}
+
+.wireless-text {
+    font-size: 21px;
+    line-height: 27px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+
+.smart{
+    height: 102px;
+    width: 155px;
+    background-image: url(smart.pngg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}
+
+
+.watch {
+    height: 102px;
+    width: 155px;
+    background-image: url(watch.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+}
+
+
+.smart1 {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    top: 163px;
+    left: 20px;
+
+}
+
+
+.watch1 {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    top: 163px;
+    right: 129px;
+}
+
+
+.headphones {
+    height: 102px;
+    width: 155px;
+    background-image: url(headphones.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 220px;
+    left: 20px;
+}
+
+.tablet {
+    height: 102px;
+    width: 155px;
+    background-image: url(tablet.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 20px;
+    top: 220px;
+}
+
+.headphone1 {
+    font-size: 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 324px;
+    left: 20px;
+}
+
+.tablet1 {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    top: 324px;
+    right: 143px;
+}
+
+
+.wireless-discover {
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+}
+
+
+
+.find-home {
+    height: 420px;
+    width: 370px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 2410px;
+    left: 417px;
+} 
+
+
+.home-text {
+    font-size: 21px;
+    line-height: 27px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+
+.homekitchen {
+    height: 102px;
+    width: 155px;
+    background-image: url(home-kitch.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 20px;
+}
+
+.home-decor13 {
+    height: 102px;
+    width: 155px;
+    background-image: url(homedecor2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 20px;
+}
+
+.kitchen211 {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    top: 170px;
+    left: 20px;
+}
+
+.home-decor14 {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    top: 170px;
+    right: 110px;
+}
+
+
+
+.dining-home {
+    height: 102px;
+    width: 155px;
+    background-image: url(home-dining.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 221px;
+    left: 20px;
+}
+
+
+.smart-home {
+    height: 102px;
+    width: 155px;
+    background-image: url(smart-home.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 221px;
+    right: 20px;
+}
+
+
+.dining-home23 {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    top: 324px;
+    left: 21px;
+}
+
+
+.smart-home1 {
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    top: 324px;
+    right: 109px;
+}
+
+
+.see-more-home {
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
